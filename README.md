@@ -18,8 +18,6 @@ A simple app template for building web apps with Next.js, React, TypeScript, Tai
 
 - [Tailwind CSS](https://tailwindcss.com/) - for styling. Tailwind is a utility-first CSS framework that provides a number of base styles and utility classes that can be used to build custom styles. It also provides a number of plugins that can be used to extend the base styles.
 
-- [Saas](https://sass-lang.com/) - for advanced styling. Sass is a CSS preprocessor that allows for more advanced styling, including keyframe animations and targeting specific elements.
-
 ### Testing
 
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro) - for testing. React Testing Library is a testing library that allows for testing React components in a way that closely resembles how the components are used.
