@@ -1,4 +1,6 @@
-# CodeWalnut's New App Template.
+# NextJS Template.
+
+> Credits - [Codewalnut template](https://github.com/CW-Codewalnut/codewalnut-template), however it was not updated to NextJS 14. This template was inspired by their work.
 
 A simple app template for building web apps with Next.js, React, TypeScript, Tailwind CSS, and more.
 
@@ -47,13 +49,13 @@ A simple app template for building web apps with Next.js, React, TypeScript, Tai
 First, install the app dependancies:
 
 ```
-npm install
+pnpm install
 ```
 
 Then, you can run the development server with the command:
 
 ```
-npm run dev
+pnpm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
