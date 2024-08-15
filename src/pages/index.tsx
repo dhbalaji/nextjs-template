@@ -1,4 +1,4 @@
-import Head from "next/head";
+import Head from 'next/head';
 
 export default function Home() {
   return (
@@ -11,9 +11,7 @@ export default function Home() {
       </Head>
       <main>
         <div className="flex w-full flex-col text-5xl">
-          <p>
-            Hello World!
-          </p>
+          <p>Hello World!</p>
         </div>
       </main>
     </>

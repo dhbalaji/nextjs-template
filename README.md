@@ -16,10 +16,6 @@ This Next.js template provides a solid foundation for building web apps. Let's b
 
 ### Testing
 
-- **React Testing Library**: For testing React components in a way that resembles real usage.
-
-- **Jest**: A JavaScript testing framework.
-
 - **Playwright**: For end-to-end testing as a user would interact with the app.
 
 ### Linting & Formatting
@@ -27,8 +23,6 @@ This Next.js template provides a solid foundation for building web apps. Let's b
 - **ESLint**: Checks for common errors and code smells in JavaScript code.
 
 - **Prettier**: Automatically formats JavaScript code.
-
-- **Husky**: Runs pre-commit hooks.
 
 ### Folder Structure
 

@@ -12,17 +12,13 @@
   },
   "extends": [
     "next",
+    "next/core-web-vitals",
     "eslint:recommended",
     "plugin:react/recommended",
-    "plugin:react-hooks/recommended",
-    "plugin:testing-library/react",
-    "plugin:jest-dom/recommended",
-    "airbnb",
-    "airbnb/hooks",
-    "airbnb-typescript",
+    "plugin:@typescript-eslint/recommended",
     "prettier"
   ],
-  "plugins": ["react", "@typescript-eslint", "testing-library", "jest-dom"],
+  "plugins": ["react", "@typescript-eslint"],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "project": "./tsconfig.json",
