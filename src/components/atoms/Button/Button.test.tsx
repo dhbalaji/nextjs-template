@@ -31,7 +31,7 @@ describe("Button", () => {
     renderComponent();
     const button = screen.getByRole("button", { name: /Button text/i });
 
-    userEvent.click(button);
+    await userEvent.click(button);
 
     await waitFor(() => {
       expect(mockOnClick).toHaveBeenCalled();

@@ -10,10 +10,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div className="flex w-full flex-col">
+        <div className="flex w-full flex-col text-5xl">
           <p>
-            Hello&nbsp;
-            <code>pages/index.tsx</code>
+            Hello World!
           </p>
         </div>
       </main>
