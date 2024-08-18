@@ -9,12 +9,23 @@
     "start": "next start",
     "lint": "next lint",
     "test": "pnpm exec playwright test",
-    "format": "pnpm exec prettier . --write"
+    "format": "pnpm exec prettier . --write",
+    "gen": "npx prisma generate"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@prisma/client": "^5.18.0",
+    "bcryptjs": "^2.4.3",
     "clsx": "^2.1.1",
     "date-fns": "^3.6.0",
+    "framer-motion": "^11.3.28",
+    "mongodb": "^6.8.0",
     "next": "14.2.5",
+    "next-auth": "^4.24.7",
+    "next-connect": "^1.0.0",
+    "prisma": "^5.18.0",
     "react": "18.3.1",
     "react-dom": "18.3.1"
   },
